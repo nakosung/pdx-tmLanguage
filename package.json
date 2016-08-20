@@ -1,0 +1,26 @@
+{
+    "name": "pdx",
+    "displayName": "pdx",
+    "description": "pdx",
+    "version": "0.0.1",
+    "publisher": "pdx",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pdx",
+            "aliases": ["PDX", "pdx"],
+            "extensions": [".pdx"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pdx",
+            "scopeName": "text.pdx.pdx",
+            "path": "./syntaxes/pdx.tmLanguage"
+        }]
+    }
+}
